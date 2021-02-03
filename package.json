@@ -1,0 +1,22 @@
+{
+  "name": "isro-api",
+  "version": "1.0.0",
+  "description": "this is the isro's unofficial launcher's data api.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "keywords": [
+    "isro",
+    "api",
+    "nodejs"
+  ],
+  "author": "Prashik Dewtale",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "netlify-lambda": "^2.0.3",
+    "serverless-http": "^2.7.0"
+  }
+}
